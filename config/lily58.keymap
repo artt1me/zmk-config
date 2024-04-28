@@ -11,6 +11,16 @@
 
 
 / {
+
+    chosen {
+     zmk,battery = &vbatt;
+    };  
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "VBATT"; 
+    };
+  
     macros {
         php_array_arrow: php_array_arrow {
             compatible = "zmk,behavior-macro";
