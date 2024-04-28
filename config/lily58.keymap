@@ -17,7 +17,6 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp =>
-                , <&macro_tap &kp GREATER_THAN>
                 ;
         };
     };
