@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp EQUAL &kp GREATER_THAN>
+                = <&macro_tap &kp MINUS &kp GREATER_THAN>
                 ;
         };
     };
