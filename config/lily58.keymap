@@ -9,6 +9,16 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+{
+    macros {
+        php_array_arrow: php_array_arrow {
+            bindings
+                = <&macro_tap &kp =>
+                , <&macro_tap &kp GREATER_THAN>
+                ;
+        };
+    };
+}
 
 / {
     keymap {
