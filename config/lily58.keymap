@@ -20,7 +20,7 @@
                 ;
         };
 
-        php_array_object: php_array_object {
+        php_object_arrow: php_object_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -60,9 +60,9 @@
             bindings = <
 &trans     &kp MINUS            &kp SINGLE_QUOTE  &kp PLUS          &trans         &trans                         &trans    &trans    &trans    &trans   &trans    &trans
 &kp F1     &kp F2               &kp F3            &kp F4            &kp F5         &kp F6                         &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&trans     &php_array_arrow     &kp AT            &kp HASH          &kp DOLLAR     &kp PRCNT                      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans    &trans
-&trans     &ext_power           EP_ON &ext_power  EP_OFF &ext_power EP_TOG &trans  &trans     &trans   &trans     &kp PLUS  &kp MINUS &trans    &trans    &kp BSLH  &kp PIPE
-                                &trans            &trans            &trans         &trans     &trans    &trans    &trans    &trans
+&trans     &php_array_arrow     &php_object_arrow &trans            &trans         &trans                         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans    &trans
+&trans     &ext_power EP_ON     &ext_power EP_OFF &ext_power EP_TOG &trans         &trans     &trans    &trans    &kp PLUS  &kp MINUS &trans    &trans    &kp BSLH  &kp PIPE
+                                                  &trans            &trans         &trans     &trans    &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
