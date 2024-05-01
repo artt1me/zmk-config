@@ -96,7 +96,7 @@
 &kp DEL     &trans        &trans          &kp EQUAL         &trans        &trans                        &trans      &trans    &trans    &trans   &trans    &trans
 &kp HOME    &trans        &trans          &trans            &trans        &trans                        &trans      &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &trans
 &kp END     &trans        &trans          &trans            &trans        &trans   &trans    &trans     &kp KP_PLUS &kp MINUS &trans    &kp LBKT &kp RBKT  &kp BSLH
-                                          &trans            &trans        &trans   &trans    &trans     &trans      &kp LCTRL &trans
+                                          &trans            &trans        &trans   &trans    &trans     &trans      &kp LALT &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
