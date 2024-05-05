@@ -74,7 +74,7 @@
 //                                     ┃           ┃           ┃           ┃           ┃      ┃           ┃           ┃           ┃           ┃      
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
-&trans      &kp MINUS            &kp SINGLE_QUOTE  &kp PLUS          &trans         &trans                         &ext_power EP_ON     &ext_power EP_OFF    &ext_power EP_TOG    &trans    &trans    &sys_reset
+&trans      &kp MINUS            &kp SINGLE_QUOTE  &kp PLUS          &trans         &trans                         &trans               &trans               &trans               &trans    &trans    &trans
 &kp F1      &kp F2               &kp F3            &kp F4            &kp F5         &kp F6                         &kp F7               &kp F8               &kp F9               &kp F10   &kp F11   &kp F12
 &kp HOME    &kp LBRC             &kp RBRC          &kp LPAR          &kp RPAR       &trans                         &php_array_arrow     &php_object_arrow    &trans               &trans    &trans    &trans
 &kp END     &kp LEFT             &kp RIGHT         &trans            &trans         &trans     &trans    &kp PIPE  &kp PLUS             &kp MINUS            &trans               &trans    &kp BSLH  &kp LBKT
@@ -93,16 +93,16 @@
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫                              ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃           ┃    LEFT   ┃   DOWN    ┃   RIGHT   ┃           ┃           ┃                              ┃           ┃           ┃           ┃           ┃           ┃           ┃           
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓      ┏━━━━━━━━━━━┫━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃           ┃           ┃           ┃           ┃           ┃           ┃           ┃      ┃           ┃           ┃           ┃           ┃           ┃           ┃           ┃
+// ┃           ┃           ┃           ┃           ┃           ┃           ┃           ┃      ┃           ┃           ┃           ┃           ┃           ┃           ┃ sys_reset ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫      ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃           ┃           ┃           ┃      ┃           ┃           ┃    LALT   ┃           ┃      
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
-&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4                  &trans      &trans    &trans    &trans   &trans     &bt BT_CLR           
-&kp DEL     &trans        &kp UP          &trans            &trans        &trans                        &trans      &trans    &trans    &trans   &kp PSCRN  &trans
-&trans      &kp LEFT      &kp DOWN        &kp RIGHT         &trans        &trans                        &trans      &trans    &trans    &trans   &trans     &trans
-&trans      &trans        &trans          &trans            &trans        &trans   &trans    &trans     &trans      &trans    &trans    &trans   &trans     &trans
-                                          &trans            &trans        &trans   &trans    &trans     &trans      &kp LALT  &trans
+&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4                  &ext_power EP_ON     &ext_power EP_OFF    &ext_power EP_TOG    &trans   &trans     &bt BT_CLR           
+&kp DEL     &trans        &kp UP          &trans            &trans        &trans                        &trans               &trans               &trans               &trans   &kp PSCRN  &trans
+&trans      &kp LEFT      &kp DOWN        &kp RIGHT         &trans        &trans                        &trans               &trans               &trans               &trans   &trans     &trans
+&trans      &trans        &trans          &trans            &trans        &trans   &trans    &trans     &trans               &trans               &trans               &trans   &trans     &sys_reset
+                                          &trans            &trans        &trans   &trans    &trans     &trans               &kp LALT             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
