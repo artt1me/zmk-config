@@ -76,9 +76,9 @@
 // ┏━━━━━━━━━━━┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓                              ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃           ┃     -     ┃     '     ┃     _     ┃   DOLLAR  ┃           ┃                              ┃           ┃           ┃           ┃           ┃           ┃           ┃ 
 // ┣━━━━━━━━━━━┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫                              ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃change_lang┃    HOME   ┃    UP     ┃     END   ┃    F5     ┃    F6     ┃                              ┃      F7   ┃      F8   ┃      F9   ┃    F10    ┃    F11    ┃    F12    ┃
+// ┃           ┃    HOME   ┃    UP     ┃     END   ┃    F5     ┃    F6     ┃                              ┃      F7   ┃      F8   ┃      F9   ┃    F10    ┃    F11    ┃    F12    ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫                              ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃           ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃    F3     ┃    F4     ┃                              ┃  p_a_ar   ┃  p_o_a    ┃           ┃           ┃           ┃           ┃
+// ┃change_lang┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃    F3     ┃    F4     ┃                              ┃  p_a_ar   ┃  p_o_a    ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓      ┏━━━━━━━━━━━┫━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃           ┃           ┃    DEL    ┃           ┃    F1     ┃    F2     ┃    "]"    ┃      ┃    "|"    ┃     {     ┃     }     ┃     (     ┃     )     ┃     \     ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫      ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -86,8 +86,8 @@
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
 &trans        &kp MINUS            &kp SINGLE_QUOTE  &kp UNDER         &kp DOLLAR     &trans                         &trans               &trans               &trans               &trans    &trans    &kp DEL
-&change_lang  &kp HOME             &kp UP            &kp END           &kp F5         &kp F6                         &kp F7               &kp F8               &kp F9               &kp F10   &kp F11   &kp F12
-&trans        &kp LEFT             &kp DOWN          &kp RIGHT         &kp F3         &kp F4                         &php_array_arrow     &php_object_arrow    &trans               &trans    &trans    &trans
+&trans        &kp HOME             &kp UP            &kp END           &kp F5         &kp F6                         &kp F7               &kp F8               &kp F9               &kp F10   &kp F11   &kp F12
+&change_lang  &kp LEFT             &kp DOWN          &kp RIGHT         &kp F3         &kp F4                         &php_array_arrow     &php_object_arrow    &trans               &trans    &trans    &trans
 &trans        &trans               &kp DEL           &trans            &kp F1         &kp F2     &kp RBKT  &kp PIPE  &kp LBRC             &kp RBRC             &kp LPAR             &kp RPAR  &kp BSLH  &trans
                                                      &trans            &kp LGUI       &trans     &trans    &trans    &trans               &trans               &trans
             >;
