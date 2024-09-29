@@ -22,7 +22,7 @@
     };
   
     macros {
-        1: php_array_arrow {
+        php_array_arrow: php_array_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
